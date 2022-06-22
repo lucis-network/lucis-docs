@@ -7,7 +7,7 @@
 - Định dạng file:
 
 ```
-{date}:
+{not_release|date}:
     * Features:
         [commit_id|issue]{description}
     * Fixes:
@@ -15,3 +15,5 @@
     * Step release:
         - Add to env
 ```
+
+> Những release mới sẽ để lên đầu, nếu chưa release thì để not_release (thêm những note release mới vào đây, không tạo mới header), khi release rồi thì nhập ngày tháng release vào
