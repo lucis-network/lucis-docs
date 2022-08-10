@@ -17,3 +17,8 @@
 ```
 
 > Những release mới sẽ để lên đầu, nếu chưa release thì để not_release (thêm những note release mới vào đây, không tạo mới header), khi release rồi thì nhập ngày tháng release vào
+
+2. Toàn vẹn dữ liệu
+
+- Khi code phải check toàn vẹn dữ liệu, không phụ thuộc vào foreign key trong db
+> VD: 
