@@ -22,3 +22,8 @@
 
 - Khi code phải check toàn vẹn dữ liệu, không phụ thuộc vào foreign key trong db
 > VD: 
+
+3. Checklist
+
+- Chỉ ghi vào release_log khi thêm biến env
+- Thay đổi database (migrations, sql tự viết) tổng hợp vào một file sql theo đúng thứ tự trước khi merge feature vào nhánh dev
