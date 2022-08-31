@@ -7,5 +7,6 @@
 5. KHÔNG ĐƯỢC XÓA những file .lock do yarn, npm,... tạo ra.
 6. Khi làm việc với typescript, không lạm dụng any, unknown, luôn định nghĩa kiểu giá trị cho tất cả các biến, tham số, giá trị trả về của function,...
 7. Không được reformat toàn bộ file code, chỉ reformat những dòng nào mình làm.
-8. Luôn xử lý trường hợp lỗi file ảnh (ảnh không tồn tại phía server, response lỗi 400, 403,...) sẽ dùng ảnh placeholder mặc định bằng onError
-9. Đối với html, javascript, typescript, css, sass phải config IDE/editor tab size 2 spaces, không được dùng 4 spaces hoặc 4 tabs.
+8. Refactor format code phải dùng commit riêng, không được commit chung với logic
+9. Luôn xử lý trường hợp lỗi file ảnh (ảnh không tồn tại phía server, response lỗi 400, 403,...) sẽ dùng ảnh placeholder mặc định bằng onError
+10. Đối với html, javascript, typescript, css, sass phải config IDE/editor tab size 2 spaces, không được dùng 4 spaces hoặc 4 tabs.
