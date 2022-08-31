@@ -17,3 +17,7 @@
 ```
 
 > Những release mới sẽ để lên đầu, nếu chưa release thì để not_release (thêm những note release mới vào đây, không tạo mới header), khi release rồi thì nhập ngày tháng release vào
+
+2.Coding
+
+- Khi dùng ORM luôn luôn phải để ORM generate ra SQL/query đúng ý dev, cần bật query logger để check
